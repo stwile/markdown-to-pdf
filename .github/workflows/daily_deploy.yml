@@ -1,11 +1,12 @@
-name: Create PDF
+name: Daily Deploy
 
 on:
-  push:
+  schedule:
+    - cron: '0 0 * * *'
 
 jobs:
   lint:
-    name: Create PDF
+    name: Daily Deploy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
