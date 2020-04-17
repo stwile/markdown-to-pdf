@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2018",
+    "sourceMap": true,
+    "types": [
+      "node"
+    ],
+    "resolveJsonModule": true,
+    "baseUrl": "./",
+    "allowJs": true,
+  },
+  "exclude": [
+    "./node_modules"
+  ],
+  "strict": true,
+  "forceConsistentCasingInFileNames": true,
+  "module": "esnext",
+  "moduleResolution": "node",
+  "resolveJsonModule": true,
+  "isolatedModules": true,
+  "noEmit": true
+}
