@@ -9,6 +9,7 @@ const dest = {
 };
 
 (async () => {
+  // eslint-disable-next-line no-console
   const pdf = await mdToPdf(path, dest).catch(console.error);
 
   if (pdf) {
