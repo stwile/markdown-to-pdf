@@ -1,17 +1,8 @@
 {
-  "eslint.enable": true,
-  "editor.renderControlCharacters": true,
-  "editor.formatOnSave": true,
+  "eslint.nodePath": "./node_modules/eslint",
+  "eslint.packageManager": "yarn",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "eslint.format.enable": true,
-  "eslint.packageManager": "yarn",
-  "eslint.workingDirectories": [
-    "./"
-  ],
-  "eslint.validate": [
-    "javascript",
-    "typescript"
-  ]
+  "eslint.alwaysShowStatus": true
 }
