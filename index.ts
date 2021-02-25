@@ -8,6 +8,7 @@ const dest = {
   dest: 'README.pdf',
 };
 
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
 (async () => {
   // eslint-disable-next-line no-console
   const pdf = await mdToPdf(path, dest).catch(console.error);
